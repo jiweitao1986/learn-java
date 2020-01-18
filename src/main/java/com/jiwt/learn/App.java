@@ -8,6 +8,7 @@ package com.jiwt.learn;
 import com.jiwt.learn.hello.HelloDemos;
 import com.jiwt.learn.reflection.ReflectionDemos;
 import com.jiwt.learn.annotation.AnnotationDemos;
+import com.jiwt.learn.hello.db.mysql.MysqlDemos;
 
 
 /**
@@ -17,6 +18,7 @@ import com.jiwt.learn.annotation.AnnotationDemos;
 public class App {
     public static void main(String[] args) {
         // ReflectionDemos.run();
-        AnnotationDemos.run();    
+        // AnnotationDemos.run();
+        MysqlDemos.run();
     }
 }
