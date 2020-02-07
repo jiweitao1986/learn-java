@@ -13,14 +13,18 @@ import static java.lang.System.out;
 public class DisplayUtil {
 
     public static void showTitle(String content) {
-        out.println("--------------------" + content + "--------------------");
+        // out.println("--------------------" + content + "--------------------");
+        out.println("----------------------------------------");
+        out.println(content);
+        out.println("----------------------------------------"); 
     }
 
     public static void showSubTitle(String content) {
         out.println("----------" + content + "----------");
     }
     
-    public static void showContent(String content) {
-        out.println(content);
+    public static void showContent(Object content) {
+        String contentString = String.valueOf(content);
+        out.println(contentString);
     }
 }
